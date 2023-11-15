@@ -14,6 +14,16 @@
 		113134902B017C7500AC0B99 /* BoraCodaLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131348F2B017C7500AC0B99 /* BoraCodaLoginTests.swift */; };
 		1131349A2B017C7500AC0B99 /* BoraCodaLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113134992B017C7500AC0B99 /* BoraCodaLoginUITests.swift */; };
 		1131349C2B017C7500AC0B99 /* BoraCodaLoginUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131349B2B017C7500AC0B99 /* BoraCodaLoginUITestsLaunchTests.swift */; };
+		113134A92B017D6700AC0B99 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113134A82B017D6700AC0B99 /* TopView.swift */; };
+		113134AB2B01918C00AC0B99 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113134AA2B01918C00AC0B99 /* FormView.swift */; };
+		113134AD2B01A6B300AC0B99 /* FieldUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113134AC2B01A6B300AC0B99 /* FieldUserView.swift */; };
+		11578D112B04ED0A005BF518 /* TitilliumWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11578D102B04ED0A005BF518 /* TitilliumWeb-Bold.ttf */; };
+		11578D142B04EDC1005BF518 /* TitilliumWeb-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11578D132B04EDC1005BF518 /* TitilliumWeb-SemiBold.ttf */; };
+		11578D162B04EDCF005BF518 /* TitilliumWeb-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11578D152B04EDCF005BF518 /* TitilliumWeb-Regular.ttf */; };
+		11578D182B04EE07005BF518 /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11578D172B04EE07005BF518 /* TitilliumWeb-Light.ttf */; };
+		11B5AA892B03BF2700DDD4EC /* FieldPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B5AA882B03BF2700DDD4EC /* FieldPassView.swift */; };
+		11B5AA8B2B03C6BE00DDD4EC /* ButtonLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B5AA8A2B03C6BE00DDD4EC /* ButtonLoginView.swift */; };
+		11B5AA8D2B04336600DDD4EC /* SubscribeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B5AA8C2B04336600DDD4EC /* SubscribeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,17 @@
 		113134952B017C7500AC0B99 /* BoraCodaLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoraCodaLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		113134992B017C7500AC0B99 /* BoraCodaLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoraCodaLoginUITests.swift; sourceTree = "<group>"; };
 		1131349B2B017C7500AC0B99 /* BoraCodaLoginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoraCodaLoginUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		113134A82B017D6700AC0B99 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		113134AA2B01918C00AC0B99 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		113134AC2B01A6B300AC0B99 /* FieldUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldUserView.swift; sourceTree = "<group>"; };
+		11578D102B04ED0A005BF518 /* TitilliumWeb-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Bold.ttf"; sourceTree = "<group>"; };
+		11578D122B04ED79005BF518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		11578D132B04EDC1005BF518 /* TitilliumWeb-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBold.ttf"; sourceTree = "<group>"; };
+		11578D152B04EDCF005BF518 /* TitilliumWeb-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Regular.ttf"; sourceTree = "<group>"; };
+		11578D172B04EE07005BF518 /* TitilliumWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Light.ttf"; sourceTree = "<group>"; };
+		11B5AA882B03BF2700DDD4EC /* FieldPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldPassView.swift; sourceTree = "<group>"; };
+		11B5AA8A2B03C6BE00DDD4EC /* ButtonLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLoginView.swift; sourceTree = "<group>"; };
+		11B5AA8C2B04336600DDD4EC /* SubscribeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +115,18 @@
 		1131347D2B017C7300AC0B99 /* BoraCodaLogin */ = {
 			isa = PBXGroup;
 			children = (
+				11578D122B04ED79005BF518 /* Info.plist */,
+				11578D0F2B04ECAA005BF518 /* fonts */,
 				1131347E2B017C7300AC0B99 /* BoraCodaLoginApp.swift */,
 				113134802B017C7300AC0B99 /* ContentView.swift */,
 				113134822B017C7500AC0B99 /* Assets.xcassets */,
 				113134842B017C7500AC0B99 /* Preview Content */,
+				113134A82B017D6700AC0B99 /* TopView.swift */,
+				113134AA2B01918C00AC0B99 /* FormView.swift */,
+				113134AC2B01A6B300AC0B99 /* FieldUserView.swift */,
+				11B5AA882B03BF2700DDD4EC /* FieldPassView.swift */,
+				11B5AA8A2B03C6BE00DDD4EC /* ButtonLoginView.swift */,
+				11B5AA8C2B04336600DDD4EC /* SubscribeView.swift */,
 			);
 			path = BoraCodaLogin;
 			sourceTree = "<group>";
@@ -125,6 +154,17 @@
 				1131349B2B017C7500AC0B99 /* BoraCodaLoginUITestsLaunchTests.swift */,
 			);
 			path = BoraCodaLoginUITests;
+			sourceTree = "<group>";
+		};
+		11578D0F2B04ECAA005BF518 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				11578D172B04EE07005BF518 /* TitilliumWeb-Light.ttf */,
+				11578D152B04EDCF005BF518 /* TitilliumWeb-Regular.ttf */,
+				11578D132B04EDC1005BF518 /* TitilliumWeb-SemiBold.ttf */,
+				11578D102B04ED0A005BF518 /* TitilliumWeb-Bold.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +271,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11578D182B04EE07005BF518 /* TitilliumWeb-Light.ttf in Resources */,
+				11578D162B04EDCF005BF518 /* TitilliumWeb-Regular.ttf in Resources */,
+				11578D142B04EDC1005BF518 /* TitilliumWeb-SemiBold.ttf in Resources */,
+				11578D112B04ED0A005BF518 /* TitilliumWeb-Bold.ttf in Resources */,
 				113134862B017C7500AC0B99 /* Preview Assets.xcassets in Resources */,
 				113134832B017C7500AC0B99 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				113134AB2B01918C00AC0B99 /* FormView.swift in Sources */,
 				113134812B017C7300AC0B99 /* ContentView.swift in Sources */,
+				11B5AA892B03BF2700DDD4EC /* FieldPassView.swift in Sources */,
+				11B5AA8D2B04336600DDD4EC /* SubscribeView.swift in Sources */,
+				113134A92B017D6700AC0B99 /* TopView.swift in Sources */,
 				1131347F2B017C7300AC0B99 /* BoraCodaLoginApp.swift in Sources */,
+				113134AD2B01A6B300AC0B99 /* FieldUserView.swift in Sources */,
+				11B5AA8B2B03C6BE00DDD4EC /* ButtonLoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +474,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BoraCodaLogin/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BoraCodaLogin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +503,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BoraCodaLogin/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BoraCodaLogin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
