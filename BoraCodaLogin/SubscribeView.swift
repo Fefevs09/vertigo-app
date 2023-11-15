@@ -9,7 +9,21 @@ import SwiftUI
 
 struct SubscribeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Text("Ainda não tem uma conta? ")
+                //.font(.system(size: 12, weight: .light))
+                .font(.custom("TitilliumWeb-Light", size: 14))
+                .foregroundStyle(.gray600)
+            Button {
+                print("Se inscreveu")
+            } label: {
+                Text("Inscreva-se")
+                    .foregroundStyle(.main)
+                    //.font(.system(size: 12, weight: .semibold))
+                    .font(.custom("TitilliumWeb-Bold", size: 14))
+            }
+            
+        }
     }
 }
 
