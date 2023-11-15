@@ -8,8 +8,38 @@
 import SwiftUI
 
 struct ButtonLoginView: View {
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button {
+            print("Teste")
+        } label: {
+            Rectangle()
+                .foregroundStyle(.main)
+                .frame(width: 300, height: 56)
+                .overlay(
+                    Text("Entrar")
+                        .foregroundStyle(.white)
+                        //.font(.system(size: 16, weight: .bold))
+                        .font(.custom("TitilliumWeb-Bold", size: 16))
+                )
+        }
+    }
+    
+    
+    var test: some View {
+        
+        Rectangle()
+            .frame(width: 300, height: 56)
+            .foregroundStyle(.main)
+            .overlay(
+                Button {
+                    print("Botao apertado")
+                } label: {
+                    Text("Entrar")
+                        .foregroundStyle(.white)
+                        .font(.system(size: 16, weight: .bold))
+                }
+            )
     }
 }
 
